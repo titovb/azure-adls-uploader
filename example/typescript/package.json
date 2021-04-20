@@ -5,7 +5,7 @@
     "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
-    "azure-adls-uploader": "^0.0.1"
+    "azure-adls-uploader": "^0.0.2"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.3.1",

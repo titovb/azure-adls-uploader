@@ -1,7 +1,7 @@
 {
   "name": "azure-adls-uploader",
   "description": "Azure ADLS Uploader for client web apps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "titovb",
   "repository": {
