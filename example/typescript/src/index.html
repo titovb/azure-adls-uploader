@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div style="display: flex; flex-direction: column">
+    <label for="filesInput" style="margin-bottom: 10px;">Select files to upload:</label>
+    <input id="filesInput" type="file" multiple>
+  </div>
+  <div style="margin-top: 15px">
+    <button id="uploadBtn" title="Start uploading files process">Upload</button>
+    <button id="clearBtn" title="Clear files queue">Clear</button>
+    <button id="cancelBtn" title="Cancel uploading process">Cancel</button>
+  </div>
+  <p id="status" title="Uploading status list">Status:<br></p>
+  <span id="progress" title="Uploading progress">Progress: </span>
+</body>
+</html>
